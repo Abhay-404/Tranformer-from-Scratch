@@ -403,5 +403,3 @@ Prediction	Highest probability word is selected
         # (batch, seq_len, d_model) --> (batch, seq_len, vocab_size)
         return self.proj(x)
 
-class Transformers(nn.Module):
-  def __init__(self, encod)
