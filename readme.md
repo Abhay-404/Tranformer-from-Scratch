@@ -68,19 +68,13 @@ The Transformer model is a deep learning architecture that relies on self-attent
 
 ### 🔄 **Current Work:** English-to-Hindi Translation
 - Implementing a Transformer-based translation model.
-- Training on bilingual datasets to improve accuracy.
 
 ### 🔬 **Future Experiments:**
 - 🚀 Experimenting with **BERT, GPT,Lama and other variants**!  
 - **Exploring SFT/DPO (Supervised Fine-Tuning)** for domain-specific applications.
 - **Implementing GRPO (Guided Reinforcement Policy Optimization)** to enhance generation quality.
 
----
 
-## 🙏 Special Thanks
-A huge shoutout to **Umar Jamil** 🎥, whose video tutorials helped me grasp the fundamentals of Transformers. Your content is truly invaluable! 🚀
-
----
 
 🔹 *This project is just the beginning. More updates coming soon!* 🚀🔥
 
