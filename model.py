@@ -347,7 +347,8 @@ class DecoderBlock(nn.Module):
       self.residual_connections = nn.ModuleList([ResidualConnection(features, dropout) for _ in range(3)])
 
 
-    """Masking
+    """
+    Masking
        Mask Type	Where Used?	Purpose
        tgt_mask (Target Mask)	Self-attention (decoder)	Prevents looking at future tokens (causal)
        src_mask (Source Mask)	Cross-attention (decoder)	Prevents attending to <PAD> tokens
@@ -359,7 +360,8 @@ class DecoderBlock(nn.Module):
         return x
 
 
-"""📌 How Data Flows?
+"""
+📌 How Data Flows?
 1️⃣ The input x goes through each DecoderBlock in self.layers.
 2️⃣ Each DecoderBlock applies:
 
@@ -367,7 +369,8 @@ Self-attention (using tgt_mask)
 Cross-attention with the encoder (using src_mask)
 Feed-forward network
 Residual connections
-3️⃣ The final output is normalized before being returned."""
+3️⃣ The final output is normalized before being returned.
+"""
 class Decoder(nn.Module):
 
   #features: The number of features in the input embeddings (same as d_model in Transformers).
