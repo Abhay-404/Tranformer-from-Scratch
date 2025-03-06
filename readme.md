@@ -10,7 +10,8 @@ Welcome to my exploration of the **Transformer** model! This journey has been an
 The Transformer model is a deep learning architecture that relies on self-attention mechanisms instead of recurrence. It consists of an **Encoder-Decoder** structure, where the encoder processes input sequences and the decoder generates outputs based on learned representations.
 
 ### 🏗 Transformer Architecture
-*(Insert Transformer architecture image here)*
+*![Screenshot 2025-02-11 165923](https://github.com/user-attachments/assets/0357203c-1c51-4e3e-a2f5-ddb5e0870047)
+*
 
 ---
 
